@@ -1,4 +1,4 @@
-<p align="center"><img src="https://avatars3.githubusercontent.com/u/34888056">Numeros En Letras</p>
+<p align="center"><FORK Numeros En Letras</p>
 <p align="center">
 <a href="https://packagist.org/packages/villca/numeros-en-letras"><img src="https://poser.pugx.org/villca/numeros-en-letras/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/villca/numeros-en-letras"><img src="https://poser.pugx.org/villca/numeros-en-letras/d/total.svg" alt="Total Downloads"></a>
@@ -9,7 +9,6 @@
 
 <p align="center">
 <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
-<img src="https://phalconphp.com/images/phalcon1.png">
 <img src="https://symfony.com/logos/symfony_black_02.svg">
 </p>
 
@@ -40,7 +39,7 @@ Mediante comando:
 ```json
 {
     "require": {
-        "villca/numeros-en-letras": "v1.2"
+        "cmontellanob/numeros-en-letras": "1.0.0"
     }
 }
 ```
@@ -52,7 +51,7 @@ Agregar a Controlador `use NumerosEnLetras;`
 
 Agregar a la Ruta en "routes/web.php"
 
-    $ Route::get('/villca', 'HomeController');
+    $ Route::get('/carlosmontellanob', 'HomeController');
     
 Crear el controlador "HomeController.php"
 
